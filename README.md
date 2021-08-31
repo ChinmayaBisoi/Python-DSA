@@ -55,11 +55,34 @@ fourth element of "A" is 10 and its index is 3, fifth element of "A" is 20 and i
 ```
 A = [20,40,60,10,20]
 
-#accessing the first element 
+# Accessing the 1st element 
 print(A[0])
 
-#accessing element 60
+# Accessing element 60
 print(A[2])
+```
+### Output
+```
+20
+60
+```
+
+### Changing elements in list
+```
+A = [20,40,60,10,20]
+
+# Changing the element 40 to say 100 or
+A[1] = 100
+print(A)
+
+# Changing the 3rd element to 90 
+A[2] = 90
+print(A)
+```
+### Output
+```
+[20, 100, 60, 10, 20]
+[20, 100, 90, 10, 20]
 ```
 
 
